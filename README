@@ -1,0 +1,10 @@
+C++ Embedded Ruby w/ bindings
+-----------------------------
+The end goal was to make an embeddable ruby application. There are
+two examples in the directories "module_example" and "class_example".
+They show how to embed ruby with a module and a class. 
+
+To compile, ensure you have ruby-devel installed and run:
+g++ _FILENAME_.cpp `pkg-config --cflags --libs ruby` -o __OUTPUT_FILE__
+
+You may need to replace 'ruby' with ruby-1.9 depending on your platform.
