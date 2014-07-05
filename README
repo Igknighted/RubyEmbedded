@@ -22,15 +22,17 @@ Found it through: https://www.ruby-lang.org/en/installation/#rubyinstaller
 This explains the ruby dev kit setup:
 https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
 
-Seriously... fuck windows at this point, because I had to manually add
-mingw\bin from the ruby dev kit to my windows Path variable. 
-
 To compile:
 
 g++ -I/c/Ruby200-x64/include/ruby-2.0.0/ \
 -I/c/Ruby200-x64/include/ruby-2.0.0/x64-mingw32/ \
 _FILENAME_.cpp \
 /c/Ruby200-x64/lib/libx64-msvcrt-ruby200.dll.a \
--o __OUTPUT_FILE__
+-o __OUTPUT_FILE__.exe
 
 Having the _FILENAME_.cpp before the dll is important.
+
+
+Seriously... fuck windows at this point, because I had to manually add
+mingw\bin from the ruby dev kit to my windows Path variable before I 
+could actually run __OUTPUT_FILE__.exe
