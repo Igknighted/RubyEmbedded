@@ -18,6 +18,10 @@ I had to use MSys from the ruby dev kit.
 
 Found it through: https://www.ruby-lang.org/en/installation/#rubyinstaller
 
+This explains the ruby dev kit setup:
+https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
+
+Seriously... fuck windows at this point.
 
 To compile:
 
