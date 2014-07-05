@@ -20,6 +20,8 @@ Found it through: https://www.ruby-lang.org/en/installation/#rubyinstaller
 
 To compile:
 
-$ g++ test.cpp -I/c/Ruby200-x64/include/ruby-2.0.0/ \
+$ g++ -I/c/Ruby200-x64/include/ruby-2.0.0/ \
 -I/c/Ruby200-x64/include/ruby-2.0.0/x64-mingw32/ \
-/c/Ruby200-x64/lib/libx64-msvcrt-ruby200.dll.a
+/c/Ruby200-x64/lib/libx64-msvcrt-ruby200.dll.a \
+_FILENAME_.cpp \
+-o __OUTPUT_FILE__
