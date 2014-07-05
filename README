@@ -27,6 +27,8 @@ To compile:
 
 $ g++ -I/c/Ruby200-x64/include/ruby-2.0.0/ \
 -I/c/Ruby200-x64/include/ruby-2.0.0/x64-mingw32/ \
-/c/Ruby200-x64/lib/libx64-msvcrt-ruby200.dll.a \
 _FILENAME_.cpp \
+/c/Ruby200-x64/lib/libx64-msvcrt-ruby200.dll.a \
 -o __OUTPUT_FILE__
+
+Having the _FILENAME_.cpp before the dll is important.
