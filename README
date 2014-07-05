@@ -8,3 +8,18 @@ To compile, ensure you have ruby-devel installed and run:
 g++ _FILENAME_.cpp `pkg-config --cflags --libs ruby` -o __OUTPUT_FILE__
 
 You may need to replace 'ruby' with ruby-1.9 depending on your platform.
+
+
+
+Windows can be a bit more confusing. Just install the mingw
+implementation with msys, g++, and whatnot. Also have to install ruby, I
+installed 2.0.0 from here: https://www.ruby-lang.org/en/installation/
+
+Found it through: https://www.ruby-lang.org/en/installation/#rubyinstaller
+
+
+To compile:
+
+$ g++ test.cpp -I/c/Ruby200-x64/include/ruby-2.0.0/ \
+-I/c/Ruby200-x64/include/ruby-2.0.0/x64-mingw32/ \
+/c/Ruby200-x64/lib/libx64-msvcrt-ruby200.dll.a
