@@ -10,6 +10,7 @@ g++ _FILENAME_.cpp `pkg-config --cflags --libs ruby` -o __OUTPUT_FILE__
 You may need to replace 'ruby' with ruby-1.9 depending on your platform.
 
 
+Doing it in the windows..... yeah....
 
 I installed installed 2.0.0 and the ruby dev kit from here:
 http://rubyinstaller.org/downloads/
