@@ -21,7 +21,8 @@ Found it through: https://www.ruby-lang.org/en/installation/#rubyinstaller
 This explains the ruby dev kit setup:
 https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
 
-Seriously... fuck windows at this point.
+Seriously... fuck windows at this point, because I had to manually add
+mingw\bin from the ruby dev kit to my windows Path variable. 
 
 To compile:
 
