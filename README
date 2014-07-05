@@ -25,7 +25,7 @@ Seriously... fuck windows at this point.
 
 To compile:
 
-$ g++ -I/c/Ruby200-x64/include/ruby-2.0.0/ \
+g++ -I/c/Ruby200-x64/include/ruby-2.0.0/ \
 -I/c/Ruby200-x64/include/ruby-2.0.0/x64-mingw32/ \
 _FILENAME_.cpp \
 /c/Ruby200-x64/lib/libx64-msvcrt-ruby200.dll.a \
