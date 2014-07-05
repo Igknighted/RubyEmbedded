@@ -11,9 +11,10 @@ You may need to replace 'ruby' with ruby-1.9 depending on your platform.
 
 
 
-Windows can be a bit more confusing. Just install the mingw
-implementation with msys, g++, and whatnot. Also have to install ruby, I
-installed 2.0.0 from here: https://www.ruby-lang.org/en/installation/
+I installed installed 2.0.0 and the ruby dev kit from here:
+http://rubyinstaller.org/downloads/
+
+I had to use MSys from the ruby dev kit.
 
 Found it through: https://www.ruby-lang.org/en/installation/#rubyinstaller
 
